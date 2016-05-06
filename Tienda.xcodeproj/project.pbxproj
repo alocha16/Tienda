@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		611E178A1CDD556D00F39B8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E17891CDD556D00F39B8A /* AppDelegate.swift */; };
+		611E178C1CDD556D00F39B8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E178B1CDD556D00F39B8A /* ViewController.swift */; };
+		611E178F1CDD556D00F39B8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611E178D1CDD556D00F39B8A /* Main.storyboard */; };
+		611E17911CDD556D00F39B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611E17901CDD556D00F39B8A /* Assets.xcassets */; };
+		611E17941CDD556D00F39B8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611E17921CDD556D00F39B8A /* LaunchScreen.storyboard */; };
+		611E179F1CDD556D00F39B8A /* TiendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E179E1CDD556D00F39B8A /* TiendaTests.swift */; };
+		611E17AA1CDD556D00F39B8A /* TiendaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E17A91CDD556D00F39B8A /* TiendaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		611E179B1CDD556D00F39B8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 611E177E1CDD556D00F39B8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 611E17851CDD556D00F39B8A;
+			remoteInfo = Tienda;
+		};
+		611E17A61CDD556D00F39B8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 611E177E1CDD556D00F39B8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 611E17851CDD556D00F39B8A;
+			remoteInfo = Tienda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		611E17861CDD556D00F39B8A /* Tienda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tienda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		611E17891CDD556D00F39B8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		611E178B1CDD556D00F39B8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		611E178E1CDD556D00F39B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		611E17901CDD556D00F39B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		611E17931CDD556D00F39B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		611E17951CDD556D00F39B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611E179A1CDD556D00F39B8A /* TiendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiendaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		611E179E1CDD556D00F39B8A /* TiendaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiendaTests.swift; sourceTree = "<group>"; };
+		611E17A01CDD556D00F39B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611E17A51CDD556D00F39B8A /* TiendaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiendaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		611E17A91CDD556D00F39B8A /* TiendaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiendaUITests.swift; sourceTree = "<group>"; };
+		611E17AB1CDD556D00F39B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		611E17831CDD556D00F39B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611E17971CDD556D00F39B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611E17A21CDD556D00F39B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		611E177D1CDD556D00F39B8A = {
+			isa = PBXGroup;
+			children = (
+				611E17881CDD556D00F39B8A /* Tienda */,
+				611E179D1CDD556D00F39B8A /* TiendaTests */,
+				611E17A81CDD556D00F39B8A /* TiendaUITests */,
+				611E17871CDD556D00F39B8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		611E17871CDD556D00F39B8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				611E17861CDD556D00F39B8A /* Tienda.app */,
+				611E179A1CDD556D00F39B8A /* TiendaTests.xctest */,
+				611E17A51CDD556D00F39B8A /* TiendaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		611E17881CDD556D00F39B8A /* Tienda */ = {
+			isa = PBXGroup;
+			children = (
+				611E17891CDD556D00F39B8A /* AppDelegate.swift */,
+				611E178B1CDD556D00F39B8A /* ViewController.swift */,
+				611E178D1CDD556D00F39B8A /* Main.storyboard */,
+				611E17901CDD556D00F39B8A /* Assets.xcassets */,
+				611E17921CDD556D00F39B8A /* LaunchScreen.storyboard */,
+				611E17951CDD556D00F39B8A /* Info.plist */,
+			);
+			path = Tienda;
+			sourceTree = "<group>";
+		};
+		611E179D1CDD556D00F39B8A /* TiendaTests */ = {
+			isa = PBXGroup;
+			children = (
+				611E179E1CDD556D00F39B8A /* TiendaTests.swift */,
+				611E17A01CDD556D00F39B8A /* Info.plist */,
+			);
+			path = TiendaTests;
+			sourceTree = "<group>";
+		};
+		611E17A81CDD556D00F39B8A /* TiendaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				611E17A91CDD556D00F39B8A /* TiendaUITests.swift */,
+				611E17AB1CDD556D00F39B8A /* Info.plist */,
+			);
+			path = TiendaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		611E17851CDD556D00F39B8A /* Tienda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611E17AE1CDD556D00F39B8A /* Build configuration list for PBXNativeTarget "Tienda" */;
+			buildPhases = (
+				611E17821CDD556D00F39B8A /* Sources */,
+				611E17831CDD556D00F39B8A /* Frameworks */,
+				611E17841CDD556D00F39B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tienda;
+			productName = Tienda;
+			productReference = 611E17861CDD556D00F39B8A /* Tienda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		611E17991CDD556D00F39B8A /* TiendaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611E17B11CDD556D00F39B8A /* Build configuration list for PBXNativeTarget "TiendaTests" */;
+			buildPhases = (
+				611E17961CDD556D00F39B8A /* Sources */,
+				611E17971CDD556D00F39B8A /* Frameworks */,
+				611E17981CDD556D00F39B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				611E179C1CDD556D00F39B8A /* PBXTargetDependency */,
+			);
+			name = TiendaTests;
+			productName = TiendaTests;
+			productReference = 611E179A1CDD556D00F39B8A /* TiendaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		611E17A41CDD556D00F39B8A /* TiendaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611E17B41CDD556D00F39B8A /* Build configuration list for PBXNativeTarget "TiendaUITests" */;
+			buildPhases = (
+				611E17A11CDD556D00F39B8A /* Sources */,
+				611E17A21CDD556D00F39B8A /* Frameworks */,
+				611E17A31CDD556D00F39B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				611E17A71CDD556D00F39B8A /* PBXTargetDependency */,
+			);
+			name = TiendaUITests;
+			productName = TiendaUITests;
+			productReference = 611E17A51CDD556D00F39B8A /* TiendaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		611E177E1CDD556D00F39B8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alvaro Lopez";
+				TargetAttributes = {
+					611E17851CDD556D00F39B8A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = B3F223U665;
+					};
+					611E17991CDD556D00F39B8A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = B3F223U665;
+						TestTargetID = 611E17851CDD556D00F39B8A;
+					};
+					611E17A41CDD556D00F39B8A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = B3F223U665;
+						TestTargetID = 611E17851CDD556D00F39B8A;
+					};
+				};
+			};
+			buildConfigurationList = 611E17811CDD556D00F39B8A /* Build configuration list for PBXProject "Tienda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 611E177D1CDD556D00F39B8A;
+			productRefGroup = 611E17871CDD556D00F39B8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				611E17851CDD556D00F39B8A /* Tienda */,
+				611E17991CDD556D00F39B8A /* TiendaTests */,
+				611E17A41CDD556D00F39B8A /* TiendaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		611E17841CDD556D00F39B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611E17941CDD556D00F39B8A /* LaunchScreen.storyboard in Resources */,
+				611E17911CDD556D00F39B8A /* Assets.xcassets in Resources */,
+				611E178F1CDD556D00F39B8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611E17981CDD556D00F39B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611E17A31CDD556D00F39B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		611E17821CDD556D00F39B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611E178C1CDD556D00F39B8A /* ViewController.swift in Sources */,
+				611E178A1CDD556D00F39B8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611E17961CDD556D00F39B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611E179F1CDD556D00F39B8A /* TiendaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611E17A11CDD556D00F39B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611E17AA1CDD556D00F39B8A /* TiendaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		611E179C1CDD556D00F39B8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 611E17851CDD556D00F39B8A /* Tienda */;
+			targetProxy = 611E179B1CDD556D00F39B8A /* PBXContainerItemProxy */;
+		};
+		611E17A71CDD556D00F39B8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 611E17851CDD556D00F39B8A /* Tienda */;
+			targetProxy = 611E17A61CDD556D00F39B8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		611E178D1CDD556D00F39B8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				611E178E1CDD556D00F39B8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		611E17921CDD556D00F39B8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				611E17931CDD556D00F39B8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		611E17AC1CDD556D00F39B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		611E17AD1CDD556D00F39B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		611E17AF1CDD556D00F39B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tienda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = as.Tienda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		611E17B01CDD556D00F39B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tienda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = as.Tienda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		611E17B21CDD556D00F39B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TiendaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = as.TiendaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tienda.app/Tienda";
+			};
+			name = Debug;
+		};
+		611E17B31CDD556D00F39B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TiendaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = as.TiendaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tienda.app/Tienda";
+			};
+			name = Release;
+		};
+		611E17B51CDD556D00F39B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TiendaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = as.TiendaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tienda;
+			};
+			name = Debug;
+		};
+		611E17B61CDD556D00F39B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TiendaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = as.TiendaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tienda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		611E17811CDD556D00F39B8A /* Build configuration list for PBXProject "Tienda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611E17AC1CDD556D00F39B8A /* Debug */,
+				611E17AD1CDD556D00F39B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		611E17AE1CDD556D00F39B8A /* Build configuration list for PBXNativeTarget "Tienda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611E17AF1CDD556D00F39B8A /* Debug */,
+				611E17B01CDD556D00F39B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		611E17B11CDD556D00F39B8A /* Build configuration list for PBXNativeTarget "TiendaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611E17B21CDD556D00F39B8A /* Debug */,
+				611E17B31CDD556D00F39B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		611E17B41CDD556D00F39B8A /* Build configuration list for PBXNativeTarget "TiendaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611E17B51CDD556D00F39B8A /* Debug */,
+				611E17B61CDD556D00F39B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 611E177E1CDD556D00F39B8A /* Project object */;
+}
