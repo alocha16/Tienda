@@ -14,6 +14,26 @@
 		611E17941CDD556D00F39B8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611E17921CDD556D00F39B8A /* LaunchScreen.storyboard */; };
 		611E179F1CDD556D00F39B8A /* TiendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E179E1CDD556D00F39B8A /* TiendaTests.swift */; };
 		611E17AA1CDD556D00F39B8A /* TiendaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E17A91CDD556D00F39B8A /* TiendaUITests.swift */; };
+		611E17B81CDD57A300F39B8A /* CellArticulos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E17B71CDD57A300F39B8A /* CellArticulos.swift */; };
+		611E17C91CDD5D5800F39B8A /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E17BF1CDD5D5800F39B8A /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		611E17CA1CDD5D5800F39B8A /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E17BF1CDD5D5800F39B8A /* FMDatabase.m */; };
+		611E17CB1CDD5D5800F39B8A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E17C11CDD5D5800F39B8A /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		611E17CC1CDD5D5800F39B8A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E17C11CDD5D5800F39B8A /* FMDatabaseAdditions.m */; };
+		611E17CD1CDD5D5800F39B8A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E17C31CDD5D5800F39B8A /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		611E17CE1CDD5D5800F39B8A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E17C31CDD5D5800F39B8A /* FMDatabasePool.m */; };
+		611E17CF1CDD5D5800F39B8A /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E17C51CDD5D5800F39B8A /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		611E17D01CDD5D5800F39B8A /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E17C51CDD5D5800F39B8A /* FMDatabaseQueue.m */; };
+		611E17D11CDD5D5800F39B8A /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E17C81CDD5D5800F39B8A /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		611E17D21CDD5D5800F39B8A /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E17C81CDD5D5800F39B8A /* FMResultSet.m */; };
+		611E17D41CDD5DE100F39B8A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 611E17D31CDD5DE100F39B8A /* libsqlite3.0.tbd */; };
+		611E17D91CDD616500F39B8A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E17D81CDD616500F39B8A /* Utilities.swift */; };
+		611E17DA1CDD616500F39B8A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E17D81CDD616500F39B8A /* Utilities.swift */; };
+		611E17DC1CDD63D600F39B8A /* ArticulosData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E17DB1CDD63D600F39B8A /* ArticulosData.swift */; };
+		611E17DD1CDD63D600F39B8A /* ArticulosData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E17DB1CDD63D600F39B8A /* ArticulosData.swift */; };
+		611E17DF1CDD644900F39B8A /* ModeloBD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E17DE1CDD644900F39B8A /* ModeloBD.swift */; };
+		611E17E01CDD644900F39B8A /* ModeloBD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E17DE1CDD644900F39B8A /* ModeloBD.swift */; };
+		611E17EC1CDD731200F39B8A /* Tienda.db in Resources */ = {isa = PBXBuildFile; fileRef = 611E17EB1CDD731200F39B8A /* Tienda.db */; };
+		611E17ED1CDD731200F39B8A /* Tienda.db in Resources */ = {isa = PBXBuildFile; fileRef = 611E17EB1CDD731200F39B8A /* Tienda.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +67,24 @@
 		611E17A51CDD556D00F39B8A /* TiendaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiendaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		611E17A91CDD556D00F39B8A /* TiendaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiendaUITests.swift; sourceTree = "<group>"; };
 		611E17AB1CDD556D00F39B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611E17B71CDD57A300F39B8A /* CellArticulos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellArticulos.swift; sourceTree = "<group>"; };
+		611E17BC1CDD5BC900F39B8A /* Tienda-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tienda-Bridging-Header.h"; sourceTree = "<group>"; };
+		611E17BE1CDD5D5800F39B8A /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		611E17BF1CDD5D5800F39B8A /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		611E17C01CDD5D5800F39B8A /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		611E17C11CDD5D5800F39B8A /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		611E17C21CDD5D5800F39B8A /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		611E17C31CDD5D5800F39B8A /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		611E17C41CDD5D5800F39B8A /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		611E17C51CDD5D5800F39B8A /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		611E17C61CDD5D5800F39B8A /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		611E17C71CDD5D5800F39B8A /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		611E17C81CDD5D5800F39B8A /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		611E17D31CDD5DE100F39B8A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		611E17D81CDD616500F39B8A /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		611E17DB1CDD63D600F39B8A /* ArticulosData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticulosData.swift; sourceTree = "<group>"; };
+		611E17DE1CDD644900F39B8A /* ModeloBD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeloBD.swift; sourceTree = "<group>"; };
+		611E17EB1CDD731200F39B8A /* Tienda.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tienda.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				611E17D41CDD5DE100F39B8A /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +116,7 @@
 		611E177D1CDD556D00F39B8A = {
 			isa = PBXGroup;
 			children = (
+				611E17D31CDD5DE100F39B8A /* libsqlite3.0.tbd */,
 				611E17881CDD556D00F39B8A /* Tienda */,
 				611E179D1CDD556D00F39B8A /* TiendaTests */,
 				611E17A81CDD556D00F39B8A /* TiendaUITests */,
@@ -97,12 +137,18 @@
 		611E17881CDD556D00F39B8A /* Tienda */ = {
 			isa = PBXGroup;
 			children = (
+				611E17BD1CDD5D2200F39B8A /* FMDB */,
 				611E17891CDD556D00F39B8A /* AppDelegate.swift */,
 				611E178B1CDD556D00F39B8A /* ViewController.swift */,
 				611E178D1CDD556D00F39B8A /* Main.storyboard */,
 				611E17901CDD556D00F39B8A /* Assets.xcassets */,
 				611E17921CDD556D00F39B8A /* LaunchScreen.storyboard */,
 				611E17951CDD556D00F39B8A /* Info.plist */,
+				611E17B71CDD57A300F39B8A /* CellArticulos.swift */,
+				611E17BC1CDD5BC900F39B8A /* Tienda-Bridging-Header.h */,
+				611E17D81CDD616500F39B8A /* Utilities.swift */,
+				611E17DB1CDD63D600F39B8A /* ArticulosData.swift */,
+				611E17DE1CDD644900F39B8A /* ModeloBD.swift */,
 			);
 			path = Tienda;
 			sourceTree = "<group>";
@@ -123,6 +169,25 @@
 				611E17AB1CDD556D00F39B8A /* Info.plist */,
 			);
 			path = TiendaUITests;
+			sourceTree = "<group>";
+		};
+		611E17BD1CDD5D2200F39B8A /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				611E17EB1CDD731200F39B8A /* Tienda.db */,
+				611E17BE1CDD5D5800F39B8A /* FMDatabase.h */,
+				611E17BF1CDD5D5800F39B8A /* FMDatabase.m */,
+				611E17C01CDD5D5800F39B8A /* FMDatabaseAdditions.h */,
+				611E17C11CDD5D5800F39B8A /* FMDatabaseAdditions.m */,
+				611E17C21CDD5D5800F39B8A /* FMDatabasePool.h */,
+				611E17C31CDD5D5800F39B8A /* FMDatabasePool.m */,
+				611E17C41CDD5D5800F39B8A /* FMDatabaseQueue.h */,
+				611E17C51CDD5D5800F39B8A /* FMDatabaseQueue.m */,
+				611E17C61CDD5D5800F39B8A /* FMDB.h */,
+				611E17C71CDD5D5800F39B8A /* FMResultSet.h */,
+				611E17C81CDD5D5800F39B8A /* FMResultSet.m */,
+			);
+			name = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +299,7 @@
 			files = (
 				611E17941CDD556D00F39B8A /* LaunchScreen.storyboard in Resources */,
 				611E17911CDD556D00F39B8A /* Assets.xcassets in Resources */,
+				611E17EC1CDD731200F39B8A /* Tienda.db in Resources */,
 				611E178F1CDD556D00F39B8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				611E17ED1CDD731200F39B8A /* Tienda.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +327,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				611E178C1CDD556D00F39B8A /* ViewController.swift in Sources */,
+				611E17CD1CDD5D5800F39B8A /* FMDatabasePool.m in Sources */,
+				611E17DC1CDD63D600F39B8A /* ArticulosData.swift in Sources */,
+				611E17B81CDD57A300F39B8A /* CellArticulos.swift in Sources */,
+				611E17CF1CDD5D5800F39B8A /* FMDatabaseQueue.m in Sources */,
+				611E17DF1CDD644900F39B8A /* ModeloBD.swift in Sources */,
 				611E178A1CDD556D00F39B8A /* AppDelegate.swift in Sources */,
+				611E17C91CDD5D5800F39B8A /* FMDatabase.m in Sources */,
+				611E17D91CDD616500F39B8A /* Utilities.swift in Sources */,
+				611E17D11CDD5D5800F39B8A /* FMResultSet.m in Sources */,
+				611E17CB1CDD5D5800F39B8A /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +344,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				611E17D21CDD5D5800F39B8A /* FMResultSet.m in Sources */,
+				611E17D01CDD5D5800F39B8A /* FMDatabaseQueue.m in Sources */,
+				611E17DA1CDD616500F39B8A /* Utilities.swift in Sources */,
+				611E17E01CDD644900F39B8A /* ModeloBD.swift in Sources */,
 				611E179F1CDD556D00F39B8A /* TiendaTests.swift in Sources */,
+				611E17CE1CDD5D5800F39B8A /* FMDatabasePool.m in Sources */,
+				611E17CA1CDD5D5800F39B8A /* FMDatabase.m in Sources */,
+				611E17DD1CDD63D600F39B8A /* ArticulosData.swift in Sources */,
+				611E17CC1CDD5D5800F39B8A /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,10 +486,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tienda/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = as.Tienda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tienda/Tienda-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -413,10 +501,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tienda/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = as.Tienda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tienda/Tienda-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -424,10 +515,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TiendaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = as.TiendaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tienda/TiendaTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tienda.app/Tienda";
 			};
 			name = Debug;
@@ -436,10 +530,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TiendaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = as.TiendaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tienda/TiendaTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tienda.app/Tienda";
 			};
 			name = Release;
@@ -485,6 +581,7 @@
 				611E17B01CDD556D00F39B8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		611E17B11CDD556D00F39B8A /* Build configuration list for PBXNativeTarget "TiendaTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +590,7 @@
 				611E17B31CDD556D00F39B8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		611E17B41CDD556D00F39B8A /* Build configuration list for PBXNativeTarget "TiendaUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +599,7 @@
 				611E17B61CDD556D00F39B8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
